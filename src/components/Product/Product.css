@@ -1,0 +1,33 @@
+.product{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+}
+.product img{
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.product-name{
+    text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.product-details {
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+h4{
+    margin: 5px 0 0 0;
+}
+p{
+    margin: 8px 0;
+}
+.addToCartBtn{
+    background-color: #FFE0B3;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+}
