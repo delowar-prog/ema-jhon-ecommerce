@@ -1,7 +1,6 @@
 import React from 'react'
 import './Product.css'
 const Product = (props) => {
-  console.log(props.product)
   const {img, name, price, ratings, seller}=props.product
   const handleAddToCart=props.handleAddToCart;
   return (
