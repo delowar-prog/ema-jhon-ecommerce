@@ -6,14 +6,19 @@
     align-items: center;
     padding: 0 100px;
 }
+.header-nav{
+    display: flex;
+    list-style: none;
+}
+
 .header-nav a{
     text-decoration: none;
     color:#fff;
     margin-left: 30px;
 }
-.header-nav a:hover{
+.header-nav {
     color:chocolate;
 }
 .active{
-    color:aqua;
+    color:chocolate;
 }

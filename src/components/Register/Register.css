@@ -1,11 +1,11 @@
-.login-section{
+.registretion-section{
     width: 30%;
     margin: 50px auto;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 30px;
 }
-.login-section h1{
+.registretion-section h1{
     font-size: 28px;
     text-align: center;
     margin-top: 0;
@@ -37,4 +37,7 @@ hr{
 .social-btn img{
     width: 40px;
     margin-right: 10px;
+}
+.text-error{
+    color:red;
 }

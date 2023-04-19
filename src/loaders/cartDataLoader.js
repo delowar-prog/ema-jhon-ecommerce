@@ -7,7 +7,6 @@ const cartDataLoader=async()=>{
     //get localstorage data 
     const storedCart=getShoppingCart();
     const saveCart=[]
-    console.log(storedCart)
     for(const id in storedCart){
         const addedProduct=products.find(pd=>pd.id===id);
         if(addedProduct){
